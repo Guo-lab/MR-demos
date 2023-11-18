@@ -18,7 +18,19 @@ struct ContentView: View {
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
 
     var body: some View {
-        EmptyView()
+        VStack(alignment: .leading, content: {
+            Text("Welcome to Generative Art in Vision Pro - gsq")
+                .font(.extraLargeTitle2)
+        })
+        .padding(50)
+        .glassBackgroundEffect()
+        .onAppear(perform: {
+            Task {
+                // onAppear triggers the immersive space to appear
+                // @https://developer.apple.com/documentation/swiftui/immersive-spaces
+                await openImmersiveSpace(id: "ImmersiveSpace")
+            }
+        })
     }
 }
 
