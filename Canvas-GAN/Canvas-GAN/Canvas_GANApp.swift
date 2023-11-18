@@ -25,5 +25,10 @@ struct Canvas_GANApp: App {
             ImmersiveView()
                 .environment(viewModel)
         }
+        
+        WindowGroup(id: "doodle_canvas") {
+            DoodleView()
+                .environment(viewModel)
+        }
     }
 }

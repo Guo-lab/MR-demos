@@ -15,6 +15,9 @@
 		17C279F12B07510D00A27C6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C279F02B07510D00A27C6B /* Preview Assets.xcassets */; };
 		17C279F92B075E9500A27C6B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C279F82B075E9500A27C6B /* ViewModel.swift */; };
 		17C27A042B07691000A27C6B /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 17C27A032B07691000A27C6B /* RealityKitContent */; };
+		17F0E7C62B08A121007F56F0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 17F0E7C52B08A121007F56F0 /* RealityKitContent */; };
+		17F0E7C82B08B3F3007F56F0 /* DoodleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */; };
+		17F0E7CA2B08BBA8007F56F0 /* sketch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E7C92B08BBA8007F56F0 /* sketch.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,8 @@
 		17C279F02B07510D00A27C6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17C279F22B07510D00A27C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17C279F82B075E9500A27C6B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleView.swift; sourceTree = "<group>"; };
+		17F0E7C92B08BBA8007F56F0 /* sketch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17F0E7C62B08A121007F56F0 /* RealityKitContent in Frameworks */,
 				17C27A042B07691000A27C6B /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				176753DF2B082B40006EFBDF /* think_different.png */,
+				17F0E7C92B08BBA8007F56F0 /* sketch.jpeg */,
 				17C279F82B075E9500A27C6B /* ViewModel.swift */,
 				17C279E72B07510D00A27C6B /* Canvas_GANApp.swift */,
 				17C279E92B07510D00A27C6B /* ContentView.swift */,
@@ -69,6 +76,7 @@
 				17C279ED2B07510D00A27C6B /* Assets.xcassets */,
 				17C279F22B07510D00A27C6B /* Info.plist */,
 				17C279EF2B07510D00A27C6B /* Preview Content */,
+				17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */,
 			);
 			path = "Canvas-GAN";
 			sourceTree = "<group>";
@@ -106,6 +114,7 @@
 			name = "Canvas-GAN";
 			packageProductDependencies = (
 				17C27A032B07691000A27C6B /* RealityKitContent */,
+				17F0E7C52B08A121007F56F0 /* RealityKitContent */,
 			);
 			productName = "Canvas-GAN";
 			productReference = 17C279E02B07510D00A27C6B /* Canvas-GAN.app */;
@@ -136,7 +145,7 @@
 			);
 			mainGroup = 17C279D72B07510D00A27C6B;
 			packageReferences = (
-				17C27A022B07691000A27C6B /* XCLocalSwiftPackageReference "../../MR-demos/Canvas-GAN/Packages/RealityKitContent" */,
+				17F0E7C42B08A121007F56F0 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */,
 			);
 			productRefGroup = 17C279E12B07510D00A27C6B /* Products */;
 			projectDirPath = "";
@@ -153,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17C279F12B07510D00A27C6B /* Preview Assets.xcassets in Resources */,
+				17F0E7CA2B08BBA8007F56F0 /* sketch.jpeg in Resources */,
 				176753E02B082B40006EFBDF /* think_different.png in Resources */,
 				17C279EE2B07510D00A27C6B /* Assets.xcassets in Resources */,
 			);
@@ -166,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17C279EA2B07510D00A27C6B /* ContentView.swift in Sources */,
+				17F0E7C82B08B3F3007F56F0 /* DoodleView.swift in Sources */,
 				17C279E82B07510D00A27C6B /* Canvas_GANApp.swift in Sources */,
 				17C279F92B075E9500A27C6B /* ViewModel.swift in Sources */,
 				17C279EC2B07510D00A27C6B /* ImmersiveView.swift in Sources */,
@@ -370,14 +381,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		17C27A022B07691000A27C6B /* XCLocalSwiftPackageReference "../../MR-demos/Canvas-GAN/Packages/RealityKitContent" */ = {
+		17F0E7C42B08A121007F56F0 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../MR-demos/Canvas-GAN/Packages/RealityKitContent";
+			relativePath = Packages/RealityKitContent;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		17C27A032B07691000A27C6B /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		17F0E7C52B08A121007F56F0 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
