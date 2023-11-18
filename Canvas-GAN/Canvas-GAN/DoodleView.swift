@@ -22,7 +22,7 @@ struct DoodleView: View {
             
             Button("Done") {
                 dismissWindow(id: "doodle_canvas")
-                viewModel.flowState = .UPDATEWALLART
+                viewModel.flowState = .PROJECTILEFLYING
             }
             Spacer()
         }

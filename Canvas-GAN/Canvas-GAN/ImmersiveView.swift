@@ -27,6 +27,8 @@ struct ImmersiveView: View {
     @State private var waveAnimation: AnimationResource? = nil
     @State private var jumpAnimation: AnimationResource? = nil
     
+    @State private var projectile: Entity? = nil
+    
     // Showing ot hiding the buttons
     @State public var showAttachmentButton = false
     //
@@ -72,6 +74,23 @@ struct ImmersiveView: View {
             {
                 let immersiveEntity = try await Entity(named: "Immersive", in: realityKitContentBundle)
                 
+                // Particle Effects
+                let projectileSceneEntity = try await Entity(named: "MainParticle", in: realityKitContentBundle)
+                guard let projectile = projectileSceneEntity.findEntity(named: "ParticleRoot") else { return }
+                projectile.children[0].components[ParticleEmitterComponent.self]?.isEmitting = false
+                projectile.children[1].components[ParticleEmitterComponent.self]?.isEmitting = false
+                projectile.components.set(ProjectileComponent())
+                characterEntity.addChild(projectile)
+                
+                // Particle Impact
+                let impactParticleSceneEntity = try await Entity(named: "ImpactParticle", in: realityKitContentBundle)
+                guard let impactParticle = impactParticleSceneEntity.findEntity(named: "ImpactParticle") else { return }
+                impactParticle.position = [0, 0, 0]
+                impactParticle.components[ParticleEmitterComponent.self]?.burstCount = 500
+                impactParticle.components[ParticleEmitterComponent.self]?.emitterShapeSize.x = 3.75 / 2.0
+                impactParticle.components[ParticleEmitterComponent.self]?.emitterShapeSize.z = 2.625 / 2.0
+                planeEntity.addChild(impactParticle)
+                
                 characterEntity.addChild(immersiveEntity)
                 content.add(characterEntity)
                 content.add(planeEntity)
@@ -108,6 +127,7 @@ struct ImmersiveView: View {
                     self.assistant = assistant
                     self.waveAnimation = waveAnimation
                     self.jumpAnimation = jumpAnimation
+                    self.projectile = projectile
                 }
             }
             catch
@@ -183,9 +203,28 @@ struct ImmersiveView: View {
                 break
                 
             case .PROJECTILEFLYING:
+                if let projectile = self.projectile {
+                    /* The real tranform of the anchor entity could not be retrieved, so the particle is going to traverse towards the center of the simulator screen
+                     */
+                    let destination = Transform(scale: projectile.transform.scale, rotation: projectile.transform.rotation, translation: [-0.7, 0.15, -0.5] * 2)
+                    Task {
+                        let duration = 3.0
+                        projectile.position = [0, 0.1, 0]
+                        projectile.children[0].components[ParticleEmitterComponent.self]?.isEmitting = true
+                        projectile.children[1].components[ParticleEmitterComponent.self]?.isEmitting = true
+                        projectile.move(to: destination, relativeTo: self.characterEntity, duration: duration, timingFunction: .easeInOut)
+                        
+                        try? await Task.sleep(for: .seconds(duration))
+                        projectile.children[0].components[ParticleEmitterComponent.self]?.isEmitting = false
+                        projectile.children[1].components[ParticleEmitterComponent.self]?.isEmitting = false
+                        viewModel.flowState = .UPDATEWALLART
+                    }
+                }
                 break
                 
             case .UPDATEWALLART:
+                self.projectile?.components[ProjectileComponent.self]?.canBurst = true
+                
                 if let plane = planeEntity.findEntity(named: "canvas") as? ModelEntity {
                     plane.model?.materials = [ImmersiveView.loadImageMaterial(imageUrl: "sketch")]
                 }
@@ -197,7 +236,6 @@ struct ImmersiveView: View {
                         try? await Task.sleep(for: .milliseconds(500))
                         await animatePromptText(text: "What else do you want to see in Vision Pro? ( ͡❛ ‿‿ ͡❛)")
                     }
-                    
                 }
                 break
             }

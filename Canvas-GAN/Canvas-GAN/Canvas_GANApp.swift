@@ -13,6 +13,8 @@ struct Canvas_GANApp: App {
     /* The state wrapper tells the app to persist the instance of view model */
     @State private var viewModel = ViewModel()
     
+    init() { ImpactParticleSystem.registerSystem(); ProjectileComponent.registerComponent() }
+    
     var body: some Scene {
         
         /* launch the first scene by default */

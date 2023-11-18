@@ -18,6 +18,7 @@
 		17F0E7C62B08A121007F56F0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 17F0E7C52B08A121007F56F0 /* RealityKitContent */; };
 		17F0E7C82B08B3F3007F56F0 /* DoodleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */; };
 		17F0E7CA2B08BBA8007F56F0 /* sketch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E7C92B08BBA8007F56F0 /* sketch.jpeg */; };
+		17F0E7CC2B08CF49007F56F0 /* ImpactParticleSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0E7CB2B08CF49007F56F0 /* ImpactParticleSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		17C279F82B075E9500A27C6B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodleView.swift; sourceTree = "<group>"; };
 		17F0E7C92B08BBA8007F56F0 /* sketch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch.jpeg; sourceTree = "<group>"; };
+		17F0E7CB2B08CF49007F56F0 /* ImpactParticleSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactParticleSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				17C279F22B07510D00A27C6B /* Info.plist */,
 				17C279EF2B07510D00A27C6B /* Preview Content */,
 				17F0E7C72B08B3F3007F56F0 /* DoodleView.swift */,
+				17F0E7CB2B08CF49007F56F0 /* ImpactParticleSystem.swift */,
 			);
 			path = "Canvas-GAN";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				17C279EA2B07510D00A27C6B /* ContentView.swift in Sources */,
 				17F0E7C82B08B3F3007F56F0 /* DoodleView.swift in Sources */,
+				17F0E7CC2B08CF49007F56F0 /* ImpactParticleSystem.swift in Sources */,
 				17C279E82B07510D00A27C6B /* Canvas_GANApp.swift in Sources */,
 				17C279F92B075E9500A27C6B /* ViewModel.swift in Sources */,
 				17C279EC2B07510D00A27C6B /* ImmersiveView.swift in Sources */,
