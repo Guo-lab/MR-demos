@@ -47,28 +47,27 @@
       },
       [
         "29A6587C-7F91-44E0-987B-A154F33A04C1",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "29A6587C-7F91-44E0-987B-A154F33A04C1",
-        "Root",
-        "jump_model",
-        "common_people_jump_up",
-        "basic_rig"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "29A6587C-7F91-44E0-987B-A154F33A04C1",
         "Root",
         "jump_model",
         "common_people_wave_test"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "29A6587C-7F91-44E0-987B-A154F33A04C1",
+        "Root",
+        "wave_model",
+        "common_people_idle"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "29A6587C-7F91-44E0-987B-A154F33A04C1",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -89,6 +88,15 @@
       [
         "29A6587C-7F91-44E0-987B-A154F33A04C1",
         "Root",
+        "wave_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "29A6587C-7F91-44E0-987B-A154F33A04C1",
+        "Root",
         "jump_model",
         "common_people_jump_up"
       ],
@@ -99,17 +107,9 @@
       [
         "29A6587C-7F91-44E0-987B-A154F33A04C1",
         "Root",
-        "wave_model",
-        "common_people_idle"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "29A6587C-7F91-44E0-987B-A154F33A04C1",
-        "Root",
-        "wave_model"
+        "jump_model",
+        "common_people_jump_up",
+        "basic_rig"
       ],
       {
         "isExpanded" : true,
@@ -170,56 +170,9 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "common_people_wave",
-        "common_people_wave"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "wave_model",
-        "common_people_wave",
-        "basic_rig",
-        "basic_rig_Pelvis",
-        "M_male1_geometry"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "assistant",
-        "geom",
-        "realistic",
-        "materials"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
         "assistant",
         "geom",
         "realistic"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "AF09ED6F-1707-48FD-8720-65B998362C09",
-        "Root",
-        "wave_model",
-        "common_people_wave",
-        "basic_rig",
-        "basic_rig_Pelvis"
       ],
       {
         "isExpanded" : true,
@@ -241,9 +194,32 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
+        "cube"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
         "wave_model",
         "common_people_wave",
-        "basic_rig"
+        "basic_rig",
+        "basic_rig_Pelvis",
+        "M_male1_geometry"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "wave_model",
+        "common_people_wave",
+        "basic_rig",
+        "basic_rig_Pelvis"
       ],
       {
         "isExpanded" : true,
@@ -252,6 +228,18 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "assistant",
+        "geom",
+        "realistic",
+        "materials"
       ],
       {
         "isExpanded" : true,
@@ -270,7 +258,8 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "cube"
+        "assistant",
+        "geom"
       ],
       {
         "isExpanded" : true,
@@ -279,8 +268,19 @@
       [
         "AF09ED6F-1707-48FD-8720-65B998362C09",
         "Root",
-        "assistant",
-        "geom"
+        "common_people_wave",
+        "common_people_wave"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "wave_model",
+        "common_people_wave",
+        "basic_rig"
       ],
       {
         "isExpanded" : true,
@@ -343,8 +343,7 @@
     "objectMetadataList" : [
       [
         "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
-        "Root",
-        "ImpactParticleRoot"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -352,7 +351,8 @@
       },
       [
         "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
-        "Root"
+        "Root",
+        "ImpactParticleRoot"
       ],
       {
         "isExpanded" : true,
