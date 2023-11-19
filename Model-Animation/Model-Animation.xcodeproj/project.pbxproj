@@ -14,7 +14,6 @@
 		17F0E7E72B09D0BF007F56F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E7E62B09D0BF007F56F0 /* Preview Assets.xcassets */; };
 		17F0E7F22B09D0BF007F56F0 /* Model_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0E7F12B09D0BF007F56F0 /* Model_AnimationTests.swift */; };
 		17F0E8032B09E2BA007F56F0 /* DisplayEmbeddedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F0E8022B09E2BA007F56F0 /* DisplayEmbeddedModel.swift */; };
-		17F0E80D2B09F5EB007F56F0 /* Nike_Air_Zoom_Pegasus_36.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E80C2B09F5EB007F56F0 /* Nike_Air_Zoom_Pegasus_36.usdz */; };
 		17F0E80F2B09F5F3007F56F0 /* MusicScene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 17F0E80E2B09F5F3007F56F0 /* MusicScene.usdz */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		17F0E7ED2B09D0BF007F56F0 /* Model-AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Model-AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F0E7F12B09D0BF007F56F0 /* Model_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_AnimationTests.swift; sourceTree = "<group>"; };
 		17F0E8022B09E2BA007F56F0 /* DisplayEmbeddedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayEmbeddedModel.swift; sourceTree = "<group>"; };
-		17F0E80C2B09F5EB007F56F0 /* Nike_Air_Zoom_Pegasus_36.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Nike_Air_Zoom_Pegasus_36.usdz; path = "Packages/3D-Model-Animation/Nike_Air_Zoom_Pegasus_36.usdz"; sourceTree = SOURCE_ROOT; };
 		17F0E80E2B09F5F3007F56F0 /* MusicScene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = MusicScene.usdz; path = "Packages/3D-Model-Animation/MusicScene.usdz"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 		17F0E7D82B09D0BE007F56F0 /* Model-Animation */ = {
 			isa = PBXGroup;
 			children = (
-				17F0E80C2B09F5EB007F56F0 /* Nike_Air_Zoom_Pegasus_36.usdz */,
 				17F0E80E2B09F5F3007F56F0 /* MusicScene.usdz */,
 				17F0E7DD2B09D0BE007F56F0 /* Model_AnimationApp.swift */,
 				17F0E7DF2B09D0BE007F56F0 /* ContentView.swift */,
@@ -207,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F0E80D2B09F5EB007F56F0 /* Nike_Air_Zoom_Pegasus_36.usdz in Resources */,
 				17F0E7E72B09D0BF007F56F0 /* Preview Assets.xcassets in Resources */,
 				17F0E80F2B09F5F3007F56F0 /* MusicScene.usdz in Resources */,
 				17F0E7E42B09D0BF007F56F0 /* Assets.xcassets in Resources */,
