@@ -7,123 +7,169 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17072B4E2B0A0B9B00D4D027 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 17072B4D2B0A0B9B00D4D027 /* RealityKitContent */; };
-		17072B502B0A0B9B00D4D027 /* SpaceX_AhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B4F2B0A0B9B00D4D027 /* SpaceX_AhaApp.swift */; };
-		17072B562B0A0B9B00D4D027 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 17072B552B0A0B9B00D4D027 /* ImageBasedLighting.skybox */; };
-		17072B582B0A0B9C00D4D027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17072B572B0A0B9C00D4D027 /* Assets.xcassets */; };
-		17072B5B2B0A0B9C00D4D027 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17072B5A2B0A0B9C00D4D027 /* Preview Assets.xcassets */; };
-		17072B632B0B236100D4D027 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B622B0B236100D4D027 /* Areas.swift */; };
-		17072B682B0B289800D4D027 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B672B0B289800D4D027 /* Area.swift */; };
-		17072B6A2B0B483100D4D027 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B692B0B483100D4D027 /* Crew.swift */; };
-		17072B6C2B0B4B3400D4D027 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B6B2B0B4B3400D4D027 /* ViewModel.swift */; };
-		17072B6E2B0B4CFA00D4D027 /* NavigationToArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B6D2B0B4CFA00D4D027 /* NavigationToArea.swift */; };
+		17072B942B0C3BA700D4D027 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 17072B932B0C3BA700D4D027 /* RealityKitContent */; };
+		17072B962B0C3BA700D4D027 /* SpaceX_AhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072B952B0C3BA700D4D027 /* SpaceX_AhaApp.swift */; };
+		17072B9C2B0C3BA700D4D027 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 17072B9B2B0C3BA700D4D027 /* ImageBasedLighting.skybox */; };
+		17072B9E2B0C3BA800D4D027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17072B9D2B0C3BA800D4D027 /* Assets.xcassets */; };
+		17072BA12B0C3BA800D4D027 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17072BA02B0C3BA800D4D027 /* Preview Assets.xcassets */; };
+		17072BAA2B0C3C8A00D4D027 /* Areas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BA92B0C3C8A00D4D027 /* Areas.swift */; };
+		17072BAC2B0C3CC100D4D027 /* NavigationToAreas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BAB2B0C3CC100D4D027 /* NavigationToAreas.swift */; };
+		17072BAF2B0C3CF400D4D027 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BAE2B0C3CF400D4D027 /* Area.swift */; };
+		17072BB12B0C3D0500D4D027 /* Crew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BB02B0C3D0500D4D027 /* Crew.swift */; };
+		17072BB32B0C3D2300D4D027 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BB22B0C3D2300D4D027 /* ViewModel.swift */; };
+		17072BB52B0C3DBA00D4D027 /* CrewArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BB42B0C3DBA00D4D027 /* CrewArea.swift */; };
+		17072BB72B0C3DD800D4D027 /* EquipmentArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BB62B0C3DD800D4D027 /* EquipmentArea.swift */; };
+		17072BBA2B0C426E00D4D027 /* CapsuleRealityArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BB92B0C426E00D4D027 /* CapsuleRealityArea.swift */; };
+		17072BBE2B0C42B000D4D027 /* FullRocketRealityArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BBD2B0C42B000D4D027 /* FullRocketRealityArea.swift */; };
+		17072BC12B0C5DD400D4D027 /* MissionArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17072BC02B0C5DD400D4D027 /* MissionArea.swift */; };
+		17072BC42B0C5E2D00D4D027 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17072BC32B0C5E2D00D4D027 /* AVKit.framework */; };
+		17072BC72B0C5F8C00D4D027 /* Inspiration4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 17072BC62B0C5EA000D4D027 /* Inspiration4.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17072B482B0A0B9B00D4D027 /* SpaceX-Aha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceX-Aha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17072B4C2B0A0B9B00D4D027 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		17072B4F2B0A0B9B00D4D027 /* SpaceX_AhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_AhaApp.swift; sourceTree = "<group>"; };
-		17072B552B0A0B9B00D4D027 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
-		17072B572B0A0B9C00D4D027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		17072B5A2B0A0B9C00D4D027 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		17072B5C2B0A0B9C00D4D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17072B622B0B236100D4D027 /* Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
-		17072B652B0B27F700D4D027 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		17072B672B0B289800D4D027 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
-		17072B692B0B483100D4D027 /* Crew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
-		17072B6B2B0B4B3400D4D027 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		17072B6D2B0B4CFA00D4D027 /* NavigationToArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToArea.swift; sourceTree = "<group>"; };
+		17072B8E2B0C3BA700D4D027 /* SpaceX-Aha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceX-Aha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17072B922B0C3BA700D4D027 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		17072B952B0C3BA700D4D027 /* SpaceX_AhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_AhaApp.swift; sourceTree = "<group>"; };
+		17072B9B2B0C3BA700D4D027 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		17072B9D2B0C3BA800D4D027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17072BA02B0C3BA800D4D027 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17072BA22B0C3BA800D4D027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17072BA92B0C3C8A00D4D027 /* Areas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Areas.swift; sourceTree = "<group>"; };
+		17072BAB2B0C3CC100D4D027 /* NavigationToAreas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToAreas.swift; sourceTree = "<group>"; };
+		17072BAE2B0C3CF400D4D027 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		17072BB02B0C3D0500D4D027 /* Crew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crew.swift; sourceTree = "<group>"; };
+		17072BB22B0C3D2300D4D027 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17072BB42B0C3DBA00D4D027 /* CrewArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewArea.swift; sourceTree = "<group>"; };
+		17072BB62B0C3DD800D4D027 /* EquipmentArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentArea.swift; sourceTree = "<group>"; };
+		17072BB92B0C426E00D4D027 /* CapsuleRealityArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleRealityArea.swift; sourceTree = "<group>"; };
+		17072BBD2B0C42B000D4D027 /* FullRocketRealityArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullRocketRealityArea.swift; sourceTree = "<group>"; };
+		17072BBF2B0C450900D4D027 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17072BC02B0C5DD400D4D027 /* MissionArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionArea.swift; sourceTree = "<group>"; };
+		17072BC32B0C5E2D00D4D027 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		17072BC62B0C5EA000D4D027 /* Inspiration4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inspiration4.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17072B452B0A0B9B00D4D027 /* Frameworks */ = {
+		17072B8B2B0C3BA700D4D027 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17072B4E2B0A0B9B00D4D027 /* RealityKitContent in Frameworks */,
+				17072BC42B0C5E2D00D4D027 /* AVKit.framework in Frameworks */,
+				17072B942B0C3BA700D4D027 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17072B3F2B0A0B9B00D4D027 = {
+		17072B852B0C3BA700D4D027 = {
 			isa = PBXGroup;
 			children = (
-				17072B4A2B0A0B9B00D4D027 /* SpaceX-Aha */,
-				17072B4B2B0A0B9B00D4D027 /* Packages */,
-				17072B492B0A0B9B00D4D027 /* Products */,
+				17072B902B0C3BA700D4D027 /* SpaceX-Aha */,
+				17072B912B0C3BA700D4D027 /* Packages */,
+				17072B8F2B0C3BA700D4D027 /* Products */,
+				17072BC22B0C5E2D00D4D027 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		17072B492B0A0B9B00D4D027 /* Products */ = {
+		17072B8F2B0C3BA700D4D027 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17072B482B0A0B9B00D4D027 /* SpaceX-Aha.app */,
+				17072B8E2B0C3BA700D4D027 /* SpaceX-Aha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17072B4A2B0A0B9B00D4D027 /* SpaceX-Aha */ = {
+		17072B902B0C3BA700D4D027 /* SpaceX-Aha */ = {
 			isa = PBXGroup;
 			children = (
-				17072B662B0B284400D4D027 /* Models */,
-				17072B642B0B241600D4D027 /* Areas */,
-				17072B4F2B0A0B9B00D4D027 /* SpaceX_AhaApp.swift */,
-				17072B552B0A0B9B00D4D027 /* ImageBasedLighting.skybox */,
-				17072B572B0A0B9C00D4D027 /* Assets.xcassets */,
-				17072B5C2B0A0B9C00D4D027 /* Info.plist */,
-				17072B592B0A0B9C00D4D027 /* Preview Content */,
-				17072B652B0B27F700D4D027 /* README.md */,
+				17072BC52B0C5E4C00D4D027 /* Videos */,
+				17072BB82B0C424200D4D027 /* RealityView */,
+				17072BAD2B0C3CCB00D4D027 /* Models */,
+				17072BA82B0C3C7D00D4D027 /* Areas */,
+				17072B952B0C3BA700D4D027 /* SpaceX_AhaApp.swift */,
+				17072B9B2B0C3BA700D4D027 /* ImageBasedLighting.skybox */,
+				17072B9D2B0C3BA800D4D027 /* Assets.xcassets */,
+				17072BA22B0C3BA800D4D027 /* Info.plist */,
+				17072B9F2B0C3BA800D4D027 /* Preview Content */,
+				17072BBF2B0C450900D4D027 /* README.md */,
 			);
 			path = "SpaceX-Aha";
 			sourceTree = "<group>";
 		};
-		17072B4B2B0A0B9B00D4D027 /* Packages */ = {
+		17072B912B0C3BA700D4D027 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				17072B4C2B0A0B9B00D4D027 /* RealityKitContent */,
+				17072B922B0C3BA700D4D027 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		17072B592B0A0B9C00D4D027 /* Preview Content */ = {
+		17072B9F2B0C3BA800D4D027 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				17072B5A2B0A0B9C00D4D027 /* Preview Assets.xcassets */,
+				17072BA02B0C3BA800D4D027 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		17072B642B0B241600D4D027 /* Areas */ = {
+		17072BA82B0C3C7D00D4D027 /* Areas */ = {
 			isa = PBXGroup;
 			children = (
-				17072B622B0B236100D4D027 /* Areas.swift */,
-				17072B6D2B0B4CFA00D4D027 /* NavigationToArea.swift */,
+				17072BA92B0C3C8A00D4D027 /* Areas.swift */,
+				17072BAB2B0C3CC100D4D027 /* NavigationToAreas.swift */,
+				17072BB42B0C3DBA00D4D027 /* CrewArea.swift */,
+				17072BB62B0C3DD800D4D027 /* EquipmentArea.swift */,
+				17072BC02B0C5DD400D4D027 /* MissionArea.swift */,
 			);
 			path = Areas;
 			sourceTree = "<group>";
 		};
-		17072B662B0B284400D4D027 /* Models */ = {
+		17072BAD2B0C3CCB00D4D027 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				17072B672B0B289800D4D027 /* Area.swift */,
-				17072B692B0B483100D4D027 /* Crew.swift */,
-				17072B6B2B0B4B3400D4D027 /* ViewModel.swift */,
+				17072BAE2B0C3CF400D4D027 /* Area.swift */,
+				17072BB02B0C3D0500D4D027 /* Crew.swift */,
+				17072BB22B0C3D2300D4D027 /* ViewModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		17072BB82B0C424200D4D027 /* RealityView */ = {
+			isa = PBXGroup;
+			children = (
+				17072BB92B0C426E00D4D027 /* CapsuleRealityArea.swift */,
+				17072BBD2B0C42B000D4D027 /* FullRocketRealityArea.swift */,
+			);
+			path = RealityView;
+			sourceTree = "<group>";
+		};
+		17072BC22B0C5E2D00D4D027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17072BC32B0C5E2D00D4D027 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17072BC52B0C5E4C00D4D027 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				17072BC62B0C5EA000D4D027 /* Inspiration4.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17072B472B0A0B9B00D4D027 /* SpaceX-Aha */ = {
+		17072B8D2B0C3BA700D4D027 /* SpaceX-Aha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17072B5F2B0A0B9C00D4D027 /* Build configuration list for PBXNativeTarget "SpaceX-Aha" */;
+			buildConfigurationList = 17072BA52B0C3BA800D4D027 /* Build configuration list for PBXNativeTarget "SpaceX-Aha" */;
 			buildPhases = (
-				17072B442B0A0B9B00D4D027 /* Sources */,
-				17072B452B0A0B9B00D4D027 /* Frameworks */,
-				17072B462B0A0B9B00D4D027 /* Resources */,
+				17072B8A2B0C3BA700D4D027 /* Sources */,
+				17072B8B2B0C3BA700D4D027 /* Frameworks */,
+				17072B8C2B0C3BA700D4D027 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,28 +177,28 @@
 			);
 			name = "SpaceX-Aha";
 			packageProductDependencies = (
-				17072B4D2B0A0B9B00D4D027 /* RealityKitContent */,
+				17072B932B0C3BA700D4D027 /* RealityKitContent */,
 			);
 			productName = "SpaceX-Aha";
-			productReference = 17072B482B0A0B9B00D4D027 /* SpaceX-Aha.app */;
+			productReference = 17072B8E2B0C3BA700D4D027 /* SpaceX-Aha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		17072B402B0A0B9B00D4D027 /* Project object */ = {
+		17072B862B0C3BA700D4D027 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					17072B472B0A0B9B00D4D027 = {
+					17072B8D2B0C3BA700D4D027 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 17072B432B0A0B9B00D4D027 /* Build configuration list for PBXProject "SpaceX-Aha" */;
+			buildConfigurationList = 17072B892B0C3BA700D4D027 /* Build configuration list for PBXProject "SpaceX-Aha" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,47 +206,53 @@
 				en,
 				Base,
 			);
-			mainGroup = 17072B3F2B0A0B9B00D4D027;
-			productRefGroup = 17072B492B0A0B9B00D4D027 /* Products */;
+			mainGroup = 17072B852B0C3BA700D4D027;
+			productRefGroup = 17072B8F2B0C3BA700D4D027 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17072B472B0A0B9B00D4D027 /* SpaceX-Aha */,
+				17072B8D2B0C3BA700D4D027 /* SpaceX-Aha */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17072B462B0A0B9B00D4D027 /* Resources */ = {
+		17072B8C2B0C3BA700D4D027 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17072B582B0A0B9C00D4D027 /* Assets.xcassets in Resources */,
-				17072B5B2B0A0B9C00D4D027 /* Preview Assets.xcassets in Resources */,
-				17072B562B0A0B9B00D4D027 /* ImageBasedLighting.skybox in Resources */,
+				17072BC72B0C5F8C00D4D027 /* Inspiration4.mp4 in Resources */,
+				17072B9E2B0C3BA800D4D027 /* Assets.xcassets in Resources */,
+				17072BA12B0C3BA800D4D027 /* Preview Assets.xcassets in Resources */,
+				17072B9C2B0C3BA700D4D027 /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17072B442B0A0B9B00D4D027 /* Sources */ = {
+		17072B8A2B0C3BA700D4D027 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17072B6C2B0B4B3400D4D027 /* ViewModel.swift in Sources */,
-				17072B6E2B0B4CFA00D4D027 /* NavigationToArea.swift in Sources */,
-				17072B632B0B236100D4D027 /* Areas.swift in Sources */,
-				17072B682B0B289800D4D027 /* Area.swift in Sources */,
-				17072B6A2B0B483100D4D027 /* Crew.swift in Sources */,
-				17072B502B0A0B9B00D4D027 /* SpaceX_AhaApp.swift in Sources */,
+				17072BAC2B0C3CC100D4D027 /* NavigationToAreas.swift in Sources */,
+				17072BAA2B0C3C8A00D4D027 /* Areas.swift in Sources */,
+				17072BAF2B0C3CF400D4D027 /* Area.swift in Sources */,
+				17072BB52B0C3DBA00D4D027 /* CrewArea.swift in Sources */,
+				17072BC12B0C5DD400D4D027 /* MissionArea.swift in Sources */,
+				17072B962B0C3BA700D4D027 /* SpaceX_AhaApp.swift in Sources */,
+				17072BBA2B0C426E00D4D027 /* CapsuleRealityArea.swift in Sources */,
+				17072BBE2B0C42B000D4D027 /* FullRocketRealityArea.swift in Sources */,
+				17072BB32B0C3D2300D4D027 /* ViewModel.swift in Sources */,
+				17072BB12B0C3D0500D4D027 /* Crew.swift in Sources */,
+				17072BB72B0C3DD800D4D027 /* EquipmentArea.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		17072B5D2B0A0B9C00D4D027 /* Debug */ = {
+		17072BA32B0C3BA800D4D027 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		17072B5E2B0A0B9C00D4D027 /* Release */ = {
+		17072BA42B0C3BA800D4D027 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +371,7 @@
 			};
 			name = Release;
 		};
-		17072B602B0A0B9C00D4D027 /* Debug */ = {
+		17072BA62B0C3BA800D4D027 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -345,7 +397,7 @@
 			};
 			name = Debug;
 		};
-		17072B612B0A0B9C00D4D027 /* Release */ = {
+		17072BA72B0C3BA800D4D027 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,20 +426,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17072B432B0A0B9B00D4D027 /* Build configuration list for PBXProject "SpaceX-Aha" */ = {
+		17072B892B0C3BA700D4D027 /* Build configuration list for PBXProject "SpaceX-Aha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17072B5D2B0A0B9C00D4D027 /* Debug */,
-				17072B5E2B0A0B9C00D4D027 /* Release */,
+				17072BA32B0C3BA800D4D027 /* Debug */,
+				17072BA42B0C3BA800D4D027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17072B5F2B0A0B9C00D4D027 /* Build configuration list for PBXNativeTarget "SpaceX-Aha" */ = {
+		17072BA52B0C3BA800D4D027 /* Build configuration list for PBXNativeTarget "SpaceX-Aha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17072B602B0A0B9C00D4D027 /* Debug */,
-				17072B612B0A0B9C00D4D027 /* Release */,
+				17072BA62B0C3BA800D4D027 /* Debug */,
+				17072BA72B0C3BA800D4D027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -395,11 +447,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		17072B4D2B0A0B9B00D4D027 /* RealityKitContent */ = {
+		17072B932B0C3BA700D4D027 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 17072B402B0A0B9B00D4D027 /* Project object */;
+	rootObject = 17072B862B0C3BA700D4D027 /* Project object */;
 }

@@ -19,7 +19,7 @@ struct Areas: View {
             NavigationStack {
                 
                 // All the navigation links
-                NavigationToArea()
+                NavigationToAreas()
                 
             }
         }

@@ -12,6 +12,7 @@ enum Crew : String, Identifiable, CaseIterable, Equatable
     case Jared, Hayley, Chris, Sian
     
     var id          :   Self    { self }
+    var name        :   String  { rawValue.lowercased() }
     var fullName    :   String  {
         switch self {
         case.Jared  :   "Jared Isaacman"
