@@ -34,9 +34,10 @@ Main Camera needs a Tracked Pose Driver.
 
 tips 3. When Window > Animation > Animator, the end has to be selected. Option + Click to move. Clicking the nodes to see models in the preview.
 
-2. How to read and use a input
+2. How to read and use a input (Input System)
    Create a custom component(New Script with a specific name).
 
    Mac had test Debug.Log Problems. - 2023.12  
 
-   
+3. Locomotion System
+   Locomotion System + Class ActionBasedContinuousMoveProvider + Character Controller(how the character should react to a obstacle) + Class ActionBasedContinuousTurnProvider + Class ActionBasedSnapTurnProvider  

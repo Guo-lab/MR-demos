@@ -1,5 +1,6 @@
 .DS_Store
-*.wav
+
+
 
 
 
@@ -243,3 +244,6 @@ Thumbs.db.meta
 
 # Library
 Quest-Game-Alpha/Library/
+Quest-Game-Alpha/Gameone_BurstDebugInformation_DoNotShip/
+Quest-Game-Alpha/Logs/
+Quest-Game-Alpha/Temp/
